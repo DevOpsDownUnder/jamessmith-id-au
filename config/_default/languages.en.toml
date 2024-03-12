@@ -1,0 +1,17 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "James Smith"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Professional homepage of James Smith."
+
+[author]
+name = "James Smith"
+image = "headshot_casual.jpg"
+links = [ { github = "https://github.com/DevOpsDownUnder", email = "mailto:resume@jamessmith.id.au", linkedin = "https://www.linkedin.com/in/jamessmithonline/"} ]
+headline = "Knowledge is of no value unless you put it into practice."
