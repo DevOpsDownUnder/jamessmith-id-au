@@ -14,10 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3 # Updated to the latest version
+
+    # Setup Node.js (Add this step if your workflow requires Node.js)
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20' # Specify Node.js 20
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v2 # Check if there's an update or version that specifies Node.js 20 compatibility
       with:
         hugo-version: 'latest'
 
@@ -25,13 +31,14 @@ jobs:
       run: hugo --minify
 
     - name: Deploy to Azure Static Web Apps
-      uses: Azure/static-web-apps-deploy@v1
+      uses: Azure/static-web-apps-deploy@v1 # Ensure this is the latest version or check for any updates regarding Node.js 20 compatibility
       with:
         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }} # Provided by GitHub
         action: "upload"
         ###### Repository/Build Configurations - These fields are optional ######
-        app_location: "/"
-        output_location: "public"
+        app_location: "/" # App source code path
+        api_location: "" # API source code path - specify if you have an API
+        output_location: "public" # Built content directory
       env:
         AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
