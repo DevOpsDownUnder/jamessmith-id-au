@@ -8,6 +8,24 @@ tags: ["resume", "cv"]
 
 {{< timeline >}}
 
+<!-- Idea11 -->
+{{< timelineItem icon="building" header="Cloud Engineer" badge="Mar 2024 - Current" subheader="Idea 11" >}}
+Idea 11 is an award-winning, full-stack AWS & Azure IT company that specialises in digital transformations, cloud infrastructure, software development and managed services.
+<ul>
+    <li>Manage, troubleshoot, and resolve Incidents, Service Requests, Events, and Problems</li>
+    <li>Provide architectural governance and technical leadership for an assigned set of clients</li>
+    <li>Participate in AGILE methodologies.</li>
+    <li>Actively participate in continual improvement initiatives</li>
+</ul>
+
+{{< keywordList >}}
+    {{< keyword >}} Azure {{< /keyword >}}
+    {{< keyword >}} AWS {{< /keyword >}}
+    {{< keyword >}} Windows Server {{< /keyword >}}
+    {{< keyword >}} Agile {{< /keyword >}}
+{{< /keywordList >}}
+{{< /timelineItem >}}
+
 <!-- INTERACTIVE -->
 {{< timelineItem icon="building" header="Automation Engineer" badge="Jan 2022 - March 2023" subheader="Interactive" >}}
 Interactive are a leading IT service provider and voted Australia’s best place to work. Providing services in Cloud, Cyber Security, Data Centres, Business Continuity, Hardware Maintenance, Serviced Office and Digital Workplace.
