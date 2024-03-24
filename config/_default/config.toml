@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "http://localhost"
+baseURL = "https://www.jamessmith.id.au"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 10
