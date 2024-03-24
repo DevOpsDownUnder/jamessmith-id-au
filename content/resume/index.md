@@ -15,7 +15,7 @@ Idea 11 is an award-winning, full-stack AWS & Azure IT company that specialises 
     <li>Manage, troubleshoot, and resolve Incidents, Service Requests, Events, and Problems</li>
     <li>Provide architectural governance and technical leadership for an assigned set of clients</li>
     <li>Participate in AGILE methodologies.</li>
-    <li>Actively participate in continual improvement initiatives</li>
+    <li>Actively participate in continual improvement initiatives.</li>
 </ul>
 
 {{< keywordList >}}
@@ -23,6 +23,10 @@ Idea 11 is an award-winning, full-stack AWS & Azure IT company that specialises 
     {{< keyword >}} AWS {{< /keyword >}}
     {{< keyword >}} Windows Server {{< /keyword >}}
     {{< keyword >}} Agile {{< /keyword >}}
+    {{< keyword >}} Connectwise {{< /keyword >}}
+    {{< keyword >}} LogicMonitor {{< /keyword >}}
+    {{< keyword >}} Sharepoint Online {{< /keyword >}}
+    {{< keyword >}} Microsoft 365 {{< /keyword >}}
 {{< /keywordList >}}
 {{< /timelineItem >}}
 
@@ -124,14 +128,16 @@ Anittel has received numerous awards including being in the CRN Fast 50 twice by
 
 {{< /timeline >}}
 
-# CERTIFICATIONS
+## CERTIFICATIONS
 
-{{< certificationCard CertName="MICROSOFT CERTIFIED AZURE SECURITY ENGINEER ASSOCIATE" Issuer="Microsoft" img="certlogos/microsoft.webp" date="2020" status="expired" >}}
+{{< certificationCard CertName="MICROSOFT CERTIFIED AZURE SECURITY ENGINEER ASSOCIATE" Issuer="Microsoft" img="/certlogos/microsoft.webp" date="2020" status="expired" >}}
 
-{{< certificationCard CertName="MICROSOFT CERTIFIED AZURE ADMINISTRATOR ASSOCIATE" Issuer="Microsoft" img="certlogos/microsoft.webp" date="2019" status="expired" >}}
+{{< certificationCard CertName="MICROSOFT CERTIFIED AZURE ADMINISTRATOR ASSOCIATE" Issuer="Microsoft" img="/certlogos/microsoft.webp" date="2019" status="expired" >}}
 
-{{< certificationCard CertName="MICROSOFT CERTIFIED SOLUTIONS ASSOCIATE - SERVER 2012 R2" Issuer="Microsoft" img="certlogos/microsoft.webp" date="2017" status="active" >}}
+{{< certificationCard CertName="MICROSOFT CERTIFIED SOLUTIONS ASSOCIATE - SERVER 2012 R2" Issuer="Microsoft" img="/certlogos/microsoft.webp" date="2017" status="active" >}}
 
-{{< certificationCard CertName="MICROSOFT CERTIFIED PROFESSIONAL" Issuer="Microsoft" img="certlogos/microsoft.webp" date="2016" status="active" >}}
+{{< certificationCard CertName="MICROSOFT CERTIFIED PROFESSIONAL" Issuer="Microsoft" img="/certlogos/microsoft.webp" date="2016" status="active" >}}
 
-{{< certificationCard CertName="VEEAM CERTIFIED TECHNICAL SALES PROFESSIONAL V9" Issuer="Veeam" img="certlogos/veeam.webp" date="2021" status="active" >}}
+{{< certificationCard CertName="VEEAM CERTIFIED TECHNICAL SALES PROFESSIONAL V9" Issuer="Veeam" img="/certlogos/veeam.webp" date="2021" status="active" >}}
+
+{{< certificationCard CertName="LogicMonitor Certified Professional" Issuer="LogicMonitor" img="/certlogos/logicmonitor.webp" date="2024" status="active" >}}
